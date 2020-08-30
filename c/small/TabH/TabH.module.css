@@ -1,0 +1,36 @@
+.main{
+    position: fixed;
+    top: 30px;
+    left: 200px;
+    border-top: 1px solid rgba(131, 131, 131, 0.6);
+    border-right: 1px solid rgba(131, 131, 131, 0.6);
+    border-left: 1px solid rgba(131, 131, 131, 0.6);
+    border-top-right-radius: 80px;
+    border-top-left-radius: 16px;
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    padding: 0 15px;
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color .3s;
+    z-index: 3;
+}
+
+.main:hover{
+    background-color: white !important;
+    transition: background-color .3s;
+}
+
+.main p{
+    color: black;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

@@ -1,0 +1,36 @@
+.main{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 25px;
+}
+
+.title{
+    width: 600px;
+    text-align:left;
+}
+
+.single_info{
+    width: 600px;
+}
+
+.section_title, .section_info{
+    width: 100%;
+    text-align: left;
+}
+
+.section_info{
+    border: 1px solid rgba(45, 45, 102, 0.459);
+    height: fit-content;
+    border-radius: 9px;
+    padding: 9px 11px;
+    font-size: 18px;
+}
+
+.section_info h5{
+    margin:0;
+}

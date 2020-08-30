@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+}
+
+body{
+  padding-left: 208px;
+  padding-top: 60px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus{
+  outline: none;
+}
+
+button:focus{
+  outline: none;
+}
+

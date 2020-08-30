@@ -1,0 +1,59 @@
+.divider{
+    width: 80%;
+    height: 1px;
+    margin: auto auto;
+    background-color: rgba(68, 68, 68, 0.637);
+}
+
+.main_courses{
+    width: 90%;
+    padding: 0 60px;
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    border: none;
+    border-radius: 14px;
+    margin: 20px;
+    width: 200px;
+    height: 240px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 4px 6px 1px rgba(46,74,117,.4);
+    -moz-box-shadow: 0px 4px 6px 1px rgba(46,74,117,.4);
+    box-shadow: 0px 4px 6px 1px rgba(46,74,117,.4);
+    z-index: 1;
+}
+
+.image_s{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.image_s img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+}
+
+.title_s{
+    height: 60px;
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}

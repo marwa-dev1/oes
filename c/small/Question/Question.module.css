@@ -1,0 +1,146 @@
+.main{
+    position: relative;
+    width: 25vw;
+    min-width: 300px;
+    padding: 5px 18px 40px 18px;
+    margin: 0 0 34px 0;
+    border: 1px solid rgba(0,73,112,0.3);
+}
+
+.main h4{
+    font-size: 13px;
+}
+
+
+
+.form >*{
+    margin: 18px 0;
+}
+
+.txt{
+    margin-top: -8px;
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: column;
+}
+
+
+.choices{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: column;
+}
+
+.choices > div {
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.choices > div > *:last-child{
+    flex-basis: 90%;
+}
+
+.otherInfo{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 80px;
+}
+
+
+.pointInput input, .choices input{
+    height: 18px !important;
+    width: 100% !important;
+    padding: 8px;
+}
+
+
+
+.correctAns{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;      
+}
+
+.main select::-ms-expand {
+    display: none;
+}
+
+@media screen and (min-width:0\0) {
+    .main select {
+        background-image:none\9;
+        padding: 5px\9;
+    }
+}
+
+.main select {
+  width: 150px;
+  height: 35px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #CCC;
+  /* height: 40px; */
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.main select option{
+    cursor: pointer;
+}
+
+
+.main select::-ms-expand {
+    display: none; 
+}
+
+
+.submitbtn{
+    position: absolute !important;
+    background-color: #0089d6 !important;
+    color: white !important;
+    left: 18px !important;
+    bottom: 18px !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+}
+
+.deletebtn{
+    position: absolute !important;
+    background-color: crimson !important;
+    color: white !important;
+    right: 18px !important;
+    bottom: 18px !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+}
+
+@media screen and (min-width:0\0) {
+    .main select {
+        background: none\9;
+        padding: 5px\9;
+    }
+}

@@ -1,0 +1,44 @@
+.main{
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    background-color: rgb(219, 219, 219);
+    width: calc(100vw - 200px);
+    height: calc(100vh - 90px);
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    border-top: 1px solid rgba(131, 131, 131, 0.6);;
+    border-left:  1px solid rgba(131, 131, 131, 0.6);;
+    overflow-y: scroll;
+	transition: color 0.3s;
+}
+
+.main::-webkit-scrollbar {
+    width: 14px;
+    cursor: pointer !important;
+}
+.main::-webkit-scrollbar-thumb {
+	background-clip: content-box;
+	border: 4px solid transparent;
+	border-radius: 7px;
+    box-shadow: inset 0 0 0 10px;
+    color: #2C3644;
+    cursor: pointer !important;
+}
+.main::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+    display: none;
+}
+.main::-webkit-scrollbar-corner {
+	background-color: transparent;
+}
+.main::-webkit-scrollbar-thumb:hover {
+    cursor: pointer !important;
+    color: #46505f;
+}
+

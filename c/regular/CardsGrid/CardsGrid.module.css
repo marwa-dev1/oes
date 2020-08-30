@@ -1,0 +1,40 @@
+.main{
+    position: relative;
+    width: 90%;
+    padding: 15px 15px;
+    margin: 30px auto;
+}
+
+.main::after{
+    position: absolute;
+    content: "";
+    top: 108%;
+    width: 50%;
+    height: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(128, 128, 128, 0.651);
+    -webkit-box-shadow: 0px 38px 13px -34px rgba(0,0,0,0.38);
+    -moz-box-shadow: 0px 38px 13px -34px rgba(0,0,0,0.38);
+    box-shadow: 0px 38px 13px -34px rgba(0,0,0,0.38);
+}
+
+.main > h2{
+    margin:-30px 0 40px 0;
+}
+
+.cards_c{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 0 !important;
+}
+
+.cards_c > *:nth-child(even){
+    margin-left: 60px;
+}
+
